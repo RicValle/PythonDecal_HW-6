@@ -22,4 +22,5 @@ axis[1].set_title('Bottom Subplot')
 axis[1].set_xlabel('Position')
 
 plt.tight_layout()
+plt.savefig('Random_Plots_Plot')
 plt.show()

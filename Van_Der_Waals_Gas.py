@@ -21,4 +21,5 @@ plt.title('Temperature of One Mole Acetone')
 plt.xlabel('Pressure (bar)')
 plt.ylabel('Volume (L)')
 plt.grid(True) #Added for easier to read plot 
+plt.savefig('Van_Der_Waals_Gas_Plot')
 plt.show()
