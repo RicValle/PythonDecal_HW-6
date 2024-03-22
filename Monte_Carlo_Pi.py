@@ -36,7 +36,6 @@ points_outside = points[distances > 1]
 plt.figure(figsize=(6, 6))
 plt.plot(points_inside[:, 0], points_inside[:, 1], 'y.', label='Inside Quarter Circle')
 plt.plot(points_outside[:, 0], points_outside[:, 1], 'b.', label='Outside Quarter Circle')
-plt.gca().set_aspect('equal', adjustable='box')
 plt.xlim(0, 1)
 plt.ylim(0, 1)
 plt.title('Monte Carlo Estimation of Pi')
